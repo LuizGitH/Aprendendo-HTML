@@ -1,0 +1,30 @@
+Link = https://www.youtube.com/watch?v=zFZrkCIc2Oc&list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu&index=40
+Parei = 20:48
+
+______________________________________________________________________________________________________________________________________________________________________________________________
+
+<head>
+
+    <title>?????</title> --> Define o título da página que aparece na aba do navegador e nos resultados dos buscadores
+
+</head>
+
+______________________________________________________________________________________________________________________________________________________________________________________________
+
+<body>
+    <h1>?????</h1> --> Escreve dentro da pagina HTML, podendo variar de h1 até h6, com a maior formatação o h1 e a menor o h6. Define o título de nível mais alto em uma página HTML
+
+    <ol>?????</ol> --> Cria uma lista ordenada, ou seja, uma lista numerada de itens
+
+    <ul>?????</ul> --> Cria uma lista não ordenada em HTML, onde os itens aparecem com marcadores (bolinhas) por padrão
+
+    <li>?????</li> --> Define um item de lista em listas ordenadas (<ol>) ou não ordenadas (<ul>) no HTML
+
+    <img src="?????" alt="?????"> --> Insere uma imagem na página web, onde src é o caminho da imagem e alt é um texto alternativo exibido se a imagem não carregar ou para acessibilidade
+
+    <img src="" alt="" width="?????"> --> Altera a largura da imagem
+</body>
+
+______________________________________________________________________________________________________________________________________________________________________________________________
+
+.CSS
