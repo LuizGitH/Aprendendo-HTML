@@ -1,11 +1,14 @@
+
 Link = https://www.youtube.com/watch?v=zFZrkCIc2Oc&list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu&index=40
-Parei = 20:48
+Parei = 1:25:00
 
 ______________________________________________________________________________________________________________________________________________________________________________________________
 
 <head>
 
     <title>?????</title> --> Define o título da página que aparece na aba do navegador e nos resultados dos buscadores
+
+    <link rel="?????" href="?????"> --> Serve para vincular recursos externos, como folhas de estilo CSS, onde rel="stylesheet" indica que é uma folha de estilo e href="caminho" define o caminho do arquivo CSS
 
 </head>
 
@@ -23,8 +26,95 @@ ________________________________________________________________________________
     <img src="?????" alt="?????"> --> Insere uma imagem na página web, onde src é o caminho da imagem e alt é um texto alternativo exibido se a imagem não carregar ou para acessibilidade
 
     <img src="" alt="" width="?????"> --> Altera a largura da imagem
+
+    <a href="?????">?????</a> --> Cria um link clicável (Sendo a palavra dentro que é o clicavel) que leva o usuário para outra página, site, documento ou recurso especificado no atributo href
+
+    <table>?????</table> --> Cria uma tabela que organiza dados em linhas e colunas
+
+    <table> <thead>?????</thead> </table> --> Define a seção de cabeçalho de uma tabela, agrupando as linhas que contêm os títulos das colunas
+
+    <table> <thead> <th>?????</th> </thead> </table> --> Define uma célula de cabeçalho em uma tabela HTML, geralmente exibida em negrito e centralizada
+
+    <table> <tbody>?????</tbody> </table> --> Agrupa o corpo de uma tabela HTML, contendo as linhas (<tr>) que representam os dados principais, separando-as dos cabeçalhos (<thead>) e dos rodapés (<tfoot>)
+
+    <table> <tbody> <tr> ????? </tr> </tbody> </table> --> Define uma linha em uma tabela HTML, agrupando células de dados (<td>) ou de cabeçalho (<th>).
+
+    <table> <tbody> <tr> <td>?????</td> </tr> </tbody> </table> --> Define uma célula de dados em uma tabela HTML, sendo usada dentro de linhas <tr>
+
+    <form>?????</form> --> Define um formulário HTML usado para coletar e enviar dados do usuário para um servidor
+
+    <input> --> é um elemento HTML usado para criar campos interativos onde os usuários podem inserir dados em formulários, como texto, senhas ou arquivos
+        ==> <input type="?????"> --> Define o tipo de dado ou interação que aquele campo <input> irá oferecer
+            ==> text --> Caixa de texto simples
+            ==> password --> Texto oculto (para senhas)
+            ==> email --> Campo para e-mail, com validação
+            ==> number --> Aceita apenas números (com setas para aumentar/reduzir)
+            ==> tel --> Entrada de telefone (sem validação rígida)
+            ==> url --> Valida um link (URL)
+            ==> search --> Campo de busca (com estilo próprio em alguns browsers)
+            ==> date --> Seleção de data (calendário)
+            ==> time --> Seleção de hora
+            ==> datetime-local --> Data e hora (sem fuso horário)
+            ==> month --> Seleção de mês e ano
+            ==> week --> Seleção de semana e ano
+            ==> checkbox --> Caixa de seleção (ligado/desligado)
+            ==> radio --> Botão de seleção única dentro de um grupo
+            ==> file --> Permite enviar arquivos
+            ==> submit --> Botão para enviar o formulário
+            ==> reset --> Botão para limpar todos os campos do formulário
+            ==> button --> Botão genérico (ação via JavaScript)
+            ==> color --> Selecionador de cor
+            ==> range --> Controle deslizante (slider)
+            ==> hidden --> Campo oculto (não aparece para o usuário)
+        ==> <input placeholder="?????"> --> Exibe um texto de dica dentro do campo até que o usuário comece a digitar, indicando o que deve ser preenchido
+        ==> <input name="?????"> --> Define o nome do dado que será enviado ao servidor quando o formulário for submetido
+
+    <div></div> --> É uma divisão da pagina, é um contêiner genérico usado para agrupar elementos e aplicar estilos ou organizar o layout na página
+
+    <h1 id="??????"></h1> --> serve para identificar de forma única esse elemento na página, permitindo que ele seja estilizado via CSS ou manipulado com JavaScript
+
+    <h1 class="??????"></h1> --> serve para atribuir um ou mais nomes de classes ao elemento, permitindo aplicar estilos CSS ou comportamentos JavaScript específicos a ele
+
+    <button>?????</button> --> cria um botão clicável em uma página web, que pode executar ações, enviar formulários ou disparar scripts
+
+
 </body>
 
 ______________________________________________________________________________________________________________________________________________________________________________________________
 
 .CSS
+
+    style="?????" --> É um atributo usado dentro de uma tag HTML para aplicar CSS diretamente a esse elemento, definindo sua aparência.
+
+    <style>?????</style> --> Serve para definir regras de CSS diretamente dentro de um documento HTML, permitindo estilizar elementos da página.
+
+    color: ????? ; --> Define a cor do texto de um elemento HTML.
+
+    text-align: ????? ; --> É usada para alinhar horizontalmente o conteúdo de texto dentro de um elemento de bloco, como <div>, <p>, <h1>, etc
+        ==> left --> Alinha o texto à esquerda
+        ==> right --> Alinha o texto à direita
+        ==> center --> Centraliza o texto
+        ==> justify --> Justifica o texto
+
+    background-color: ????? ; --> Define a cor de fundo de um elemento na página
+
+    width: ?????; --> define a largura de um elemento, podendo ser em pixels (px), porcentagem (%), ou outras unidades
+
+    height: ?????; --> define a altura de um elemento, podendo ser especificada em unidades como pixels (px), porcentagem (%) ou outras, controlando seu tamanho vertical.
+
+    padding: ?????; -->  Define o espaçamento interno entre o conteúdo de um elemento e suas bordas
+
+    margin: ?????; --> define o espaçamento externo de um elemento, ou seja, a distância entre ele e os elementos ao seu redor
+
+    font-family: ?????; --> define a fonte do texto em um elemento, podendo listar várias fontes em ordem de prioridade
+
+    font-size: ?????; --> define o tamanho da fonte do texto em um elemento, podendo ser especificado em pixels, em, rem, porcentagem ou palavras-chave
+
+    font-weight: ?????; --> define a espessura (peso) da fonte, variando de valores como normal, bold ou números de 100 (mais fino) a 900 (mais grosso)
+
+    border: ??? ??? ???; --> define, de forma resumida, a largura, o tipo (estilo) e a cor da borda de um elemento
+
+    border-collapse: ????? ; --> define se as bordas de uma tabela devem ser separadas (separate) ou mescladas em uma única borda (collapse).
+
+    tag:hover {???} --> aplica estilos CSS a um elemento (tag) quando o usuário passa o cursor do mouse sobre ele
+
