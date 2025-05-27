@@ -105,6 +105,7 @@ ________________________________________________________________________________
     padding: ?????; -->  Define o espaçamento interno entre o conteúdo de um elemento e suas bordas
 
     margin: ?????; --> define o espaçamento externo de um elemento, ou seja, a distância entre ele e os elementos ao seu redor
+        ==> margin: auto; --> centraliza horizontalmente um elemento em seu contêiner, desde que ele tenha uma largura definida
 
     font-family: ?????; --> define a fonte do texto em um elemento, podendo listar várias fontes em ordem de prioridade
 
@@ -124,3 +125,4 @@ ________________________________________________________________________________
 
     box-sizing: ; --> define como o tamanho total de um elemento é calculado, incluindo ou excluindo padding e borda nas dimensões definidas (box-sizing: border-box;)
 
+    box-shadow: 0 0 2px black;
