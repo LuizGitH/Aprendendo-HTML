@@ -118,3 +118,9 @@ ________________________________________________________________________________
 
     tag:hover {???} --> aplica estilos CSS a um elemento (tag) quando o usuário passa o cursor do mouse sobre ele
 
+    text-transform: ; --> Controla a capitalização do texto, permitindo transformá-lo em maiúsculas (uppercase), minúsculas (lowercase) ou capitalizar a primeira letra de cada palavra (capitalize)
+
+    border-radius: ; --> define o raio de curvatura dos cantos de um elemento, permitindo criar bordas arredondadas
+
+    box-sizing: ; --> define como o tamanho total de um elemento é calculado, incluindo ou excluindo padding e borda nas dimensões definidas (box-sizing: border-box;)
+
