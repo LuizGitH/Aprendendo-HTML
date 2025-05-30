@@ -1,6 +1,6 @@
 
 Link = https://www.youtube.com/watch?v=zFZrkCIc2Oc&list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu&index=40
-Parei = 1:25:00
+Parei = 1:35:00
 
 ______________________________________________________________________________________________________________________________________________________________________________________________
 
@@ -119,10 +119,30 @@ ________________________________________________________________________________
 
     tag:hover {???} --> aplica estilos CSS a um elemento (tag) quando o usuário passa o cursor do mouse sobre ele
 
-    text-transform: ; --> Controla a capitalização do texto, permitindo transformá-lo em maiúsculas (uppercase), minúsculas (lowercase) ou capitalizar a primeira letra de cada palavra (capitalize)
+    text-transform: ??????; --> Controla a capitalização do texto, permitindo transformá-lo em maiúsculas (uppercase), minúsculas (lowercase) ou capitalizar a primeira letra de cada palavra (capitalize)
 
-    border-radius: ; --> define o raio de curvatura dos cantos de um elemento, permitindo criar bordas arredondadas
+    border-radius: ??????; --> define o raio de curvatura dos cantos de um elemento, permitindo criar bordas arredondadas
 
-    box-sizing: ; --> define como o tamanho total de um elemento é calculado, incluindo ou excluindo padding e borda nas dimensões definidas (box-sizing: border-box;)
+    box-sizing: ??????; --> define como o tamanho total de um elemento é calculado, incluindo ou excluindo padding e borda nas dimensões definidas (box-sizing: border-box;)
 
     box-shadow: 0 0 2px black;
+
+    @media (?????) {??????} --> define regras de estilo condicionais que só são aplicadas quando a condição especificada entre parênteses — como tamanho de tela, orientação ou resolução — é atendida
+
+    display: ?????; --> define como um elemento é renderizado na página, controlando seu comportamento na disposição do layout, como block, inline, flex, grid ou none
+
+    flex-wrap: ?????; --> define se os itens de um container flexível devem quebrar linha (wrap), permanecer em uma única linha (nowrap) ou quebrar na direção inversa (wrap-reverse)
+
+    grid-column-gap: ??????; --> define o espaçamento horizontal (entre as colunas) em um layout CSS Grid
+
+    grid-row-gap: ??????; --> define o espaçamento vertical (entre as linhas) em um layout CSS Grid
+
+    grid-template-columns: ??? ??? ??? ...; -->  define o número e o tamanho das colunas em um layout CSS Grid
+
+______________________________________________________________________________________________________________________________________________________________________________________________
+BOOTSTRAP
+Documentação : https://getbootstrap.com.br
+
+    Copie e cole o arquivo de estilo <link> dentro da sua <head> antes de todos os outros arquivos de estilo para carregar nosso CSS :
+        --> <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
