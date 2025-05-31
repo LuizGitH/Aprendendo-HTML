@@ -77,7 +77,7 @@ ________________________________________________________________________________
 
     <button>?????</button> --> cria um botão clicável em uma página web, que pode executar ações, enviar formulários ou disparar scripts
 
-
+    lorem
 </body>
 
 ______________________________________________________________________________________________________________________________________________________________________________________________
@@ -139,6 +139,37 @@ ________________________________________________________________________________
 
     grid-template-columns: ??? ??? ??? ...; -->  define o número e o tamanho das colunas em um layout CSS Grid
 
+    float
+
+    overflow
+
+    column-count
+
+    column-gap
+
+    column-rule-style
+
+    column-rule-width
+
+    column-rule-color
+
+    position
+
+    top
+
+    z-index
+
+    left
+
+    opacity
+
+    transition- property duration
+
+    animation-name:
+
+    animation-duration
+
+    @keyframes
 ______________________________________________________________________________________________________________________________________________________________________________________________
 BOOTSTRAP
 Documentação : https://getbootstrap.com.br
